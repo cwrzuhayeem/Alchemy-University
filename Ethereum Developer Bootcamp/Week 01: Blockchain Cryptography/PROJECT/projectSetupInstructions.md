@@ -50,7 +50,6 @@
    ```bash
    node index.js
    ```
-
 **Better Option (Recommended):** Use `nodemon` for automatic restarts:
 
 ```bash
@@ -68,7 +67,6 @@ nodemon index.js
    ```bash
    node generate.js
    ```
-
 **NOTE:** You can also use the keys from the `keys.txt` file...These keys were initially used to complete the project!
 
 <br>
