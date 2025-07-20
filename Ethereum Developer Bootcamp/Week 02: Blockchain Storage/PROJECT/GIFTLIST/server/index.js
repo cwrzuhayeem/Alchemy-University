@@ -19,7 +19,7 @@ app.post("/gift", (req, res) => {
   const isInTheList = verifyProof(proof, name, MERKLE_ROOT);
 
   if (isInTheList) {
-    res.send("YOU'VE GOT A TITY TOY ROBOT!");
+    res.send("YOU'VE GOT A TINY TOY ROBOT!");
   } else {
     res.send("YOU'RE NOT IN THE LIST! :(");
   }
