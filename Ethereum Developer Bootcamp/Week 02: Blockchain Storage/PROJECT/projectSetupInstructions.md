@@ -35,7 +35,6 @@
    ```bash
    node index.js
    ```
-
 **Better Option (Recommended):** Use `nodemon` for automatic restarts:
 
 ```bash
@@ -53,7 +52,6 @@ nodemon index.js
    ```bash
    node index.js
    ```
-
 **NOTE:** Initially, when you will execute the command, you will see "YOU'VE GOT A TINY TOY ROBOT!"
 <br>
 You can change the name in the `/client/index.js` file & verify the output!
@@ -65,7 +63,6 @@ You can change the name in the `/client/index.js` file & verify the output!
    ```bash
    node example.js
    ```
-
 **NOTE:** Initially, when you will execute the command, you will see "Present?: true"
 <br>
 You can change the name in the `/utils/example.js` file & verify the output!
