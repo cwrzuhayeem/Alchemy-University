@@ -10,7 +10,7 @@ app.use(express.json());
 const MERKLE_ROOT =
   "79bd94df7c36aa2ce51e27c1d68e772723baa77232d80bcc935a703b636a3279";
 
-// replaced UI texts
+// replacement (UI texts)
 app.post("/gift", (req, res) => {
   // extract the parameters passed from the front-end (client)
   const { proof, name } = req.body;
