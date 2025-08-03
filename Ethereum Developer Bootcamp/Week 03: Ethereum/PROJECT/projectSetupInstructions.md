@@ -24,11 +24,13 @@
    ```bash
    npm install
    ```
+
 - Start the server:
 
    ```bash
    npm start
    ```
+
 - Open your browser and go to:
 
    ```
