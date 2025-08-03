@@ -29,16 +29,19 @@
    ```bash
    npm install
    ```
+
 - Test all files:
 
    ```bash
    npx hardhat test
    ```
+
 - Test specific file:
 
    ```bash
    npx hardhat test test/game<game no.>Test.js
    ```
+
 **NOTE:** All tests will be passed!
 
 <br>
@@ -65,33 +68,41 @@
    ```bash
    npm install
    ```
+
 - Run JSON-RPC server:
 
    ```bash
    npx hardhat node
    ```
+
 - Keep the JSON-RPC server running. Open a new ternmal. Deploy the contracts:
 
    ```bash
    npx hardhat run scripts/deploy1.js
    ```
+
    ```bash
    npx hardhat run scripts/deploy2.js
    ```
+
    ```bash
    npx hardhat run scripts/deploy3.js
    ```
+
    ```bash
    npx hardhat run scripts/deploy4.js
    ```
+
    ```bash
    npx hardhat run scripts/deploy5.js
    ```
+
 - Test specific file:
 
    ```bash
    npx hardhat run scripts/win<game no.>.js
    ```
+
 **NOTE:** For all tests, you will see a transaction receipt with a `Winner` event inside of the `events` array!
 
 <br>
