@@ -2,7 +2,7 @@ import server from "./server";
 
 // replacement (address -> ethAddress)
 // replacement (setAddress -> setEthAddress)
-// replacenent (UI texts)
+// replacement (UI texts)
 function Wallet({ ethAddress, setEthAddress, balance, setBalance }) {
   async function onChange(evt) {
     const ethAddress = evt.target.value;
