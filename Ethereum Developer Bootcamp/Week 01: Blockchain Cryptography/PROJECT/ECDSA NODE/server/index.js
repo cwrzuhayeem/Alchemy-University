@@ -28,7 +28,7 @@ app.get("/balance/:ethAddress", (req, res) => {
   res.send({ balance });
 });
 
-// replacenent (UI texts)
+// replacement (UI texts)
 app.post("/send", (req, res) => {
   const { sender, recipient, amount, signature, recoveryBit } = req.body;
 
