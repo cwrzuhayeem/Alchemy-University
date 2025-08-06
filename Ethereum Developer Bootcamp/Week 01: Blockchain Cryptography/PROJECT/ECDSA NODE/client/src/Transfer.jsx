@@ -10,7 +10,7 @@ const PRIVATE_KEY =
   "49d49e94998117033c73cb502799febc771d693eb9e2c8fca55f7f87b89e60af";
 
 // replacement (address -> ethAddress)
-// replacenent (UI texts)
+// replacement (UI texts)
 function Transfer({ ethAddress, setBalance }) {
   const [sendAmount, setSendAmount] = useState("");
   const [recipient, setRecipient] = useState("");
